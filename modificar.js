@@ -1,4 +1,3 @@
-
 var formulario = document.getElementById('formulariomod');
 
 formulario.addEventListener('submit', function(e){

@@ -1,17 +1,17 @@
-var formulario = document.getElementById('formularioregistro');
+var form = document.getElementById('formularioregistro');
 
-formulario.addEventListener('submit', function(e){
+form.addEventListener('submit', function(e){
     e.preventDefault();
 
-    var datos = new FormData(formulario);
-    console.log(datos);
+    var dat = new FormData(form);
+    console.log(dat);
 
 
     php = "entrada.php"
 
     fetch(php, {
         method: 'POST',
-        body: datos
+        body: dat
     })
     .then (res => res.json())
     .then (data => {
@@ -19,11 +19,6 @@ formulario.addEventListener('submit', function(e){
     })
 })
 
-/*
-function borrado() {
-    formulario.reset();
-}
-*/  
 
 function refresh() {
     location.reload();

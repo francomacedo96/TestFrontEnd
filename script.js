@@ -24,3 +24,7 @@ function borrado() {
     formulario.reset();
 }
 */  
+
+function refresh() {
+    location.reload();
+}

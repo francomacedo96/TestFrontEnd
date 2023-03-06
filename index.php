@@ -20,13 +20,13 @@ include("conect.php");
     <div>
         <form method="post" class="estilo" id="formularioregistro">
             <p>Registro</p>
-            Nombre: <input type="text" name="nombre" >
-            Apellido: <input type="text" name="apellido" >
-            Rut: <input type="text" name="rut" >
-            Tipo: <input type="text" name="tipo" >
-            Tel: <input type="tel" name="telefono" >
-            Activo: <input type="text" name="activo" >
-            Mail: <input type="mail" name="email" >
+            Nombre: <input type="text" name="nombre" require>
+            Apellido: <input type="text" name="apellido" require>
+            Rut: <input type="text" name="rut" require>
+            Tipo: <input type="text" name="tipo" require>
+            Tel: <input type="tel" name="telefono" require>
+            Activo: <input type="text" name="activo" require>
+            Mail: <input type="mail" name="email" require>
             <button type="submit">Registro</button>
         </form>
         
@@ -34,6 +34,7 @@ include("conect.php");
 
     <div>
         <table>
+            <input type="button" value="Reload Page" onClick="document.location.reload(true)">
             <thead>
                 <tr>
                     <th>id</th>
@@ -48,9 +49,9 @@ include("conect.php");
                     <th>Del</th>
                 </tr>
             </thead>
-
-
             <tbody id="prev">
+
+            
             </tbody>
         </table>
     </div>
@@ -60,7 +61,7 @@ include("conect.php");
     </script>
     <script src="mostrar.js">
         
-        </script>
+    </script>
 </body>
 
 </html>

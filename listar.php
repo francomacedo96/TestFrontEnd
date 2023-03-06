@@ -12,3 +12,4 @@ while ($fila = $res->fetch_assoc()) {
 echo json_encode($filas);
 
 ?>
+

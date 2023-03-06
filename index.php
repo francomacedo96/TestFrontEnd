@@ -74,18 +74,19 @@ include("conect.php");
     </div>
     </div>
     <script src="script.js">
-        
     </script>
+
+
     <script src="zmostrar.js">
-        
     </script>
+
     <script src="modificar.js">
-        
-        </script>
+    </script>
+
 
         <script src="borrar.js">
-        
-        </script>
+        </script>      <!--
+      -->
 
 </body>
 

@@ -83,6 +83,10 @@ include("conect.php");
         
         </script>
 
+        <script src="borrar.js">
+        
+        </script>
+
 </body>
 
 </html>

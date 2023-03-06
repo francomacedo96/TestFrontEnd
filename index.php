@@ -33,6 +33,23 @@ include("conect.php");
     </div>
 
     <div>
+        
+        <form method="post" class="estilo" id="formulariomod">
+            <p>Modificar</p>
+            Id: <input type="text" name="idCliente" require>
+            Nombre: <input type="text" name="nombre" require>
+            Apellido: <input type="text" name="apellido" require>
+            Rut: <input type="text" name="rut" require>
+            Tipo: <input type="text" name="tipo" require>
+            Tel: <input type="tel" name="telefono" require>
+            Activo: <input type="text" name="activo" require>
+            Mail: <input type="mail" name="email" require>
+            <button type="submit">Modificar</button>
+        </form>
+
+    </div>
+
+    <div>
         <table>
             <input type="button" value="Reload Page" onClick="document.location.reload(true)">
             <thead>
@@ -62,6 +79,10 @@ include("conect.php");
     <script src="mostrar.js">
         
     </script>
+    <script src="modificar.js">
+        
+        </script>
+
 </body>
 
 </html>

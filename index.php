@@ -76,7 +76,7 @@ include("conect.php");
     <script src="script.js">
         
     </script>
-    <script src="mostrar.js">
+    <script src="zmostrar.js">
         
     </script>
     <script src="modificar.js">

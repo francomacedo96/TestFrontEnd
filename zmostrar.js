@@ -23,11 +23,11 @@ const mostrarData = (info) => {
             <td>${info[i].email}</td>
             <td>
 
-            <button onclick="sel(${info[i].idCliente})">Select</button>       
+            <button type="button" class="btn btn-primary" onclick="sel(${info[i].idCliente})">Select</button>       
             
             </td>
             <td>
-            <button onclick="del(${info[i].idCliente})">Borrar</button>       
+            <button type="button" class="btn btn-danger" onclick="del(${info[i].idCliente})">Borrar</button>       
  
 
             </td>

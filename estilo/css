@@ -16,5 +16,10 @@
 
 .flexforms {
     display: flex;
+    justify-content: space-around;
 
+}
+
+.table {
+    width: 1600px;
 }

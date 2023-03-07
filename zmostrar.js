@@ -21,7 +21,11 @@ const mostrarData = (info) => {
             <td>${info[i].telefono}</td>
             <td>${info[i].activo}</td>
             <td>${info[i].email}</td>
-            <td id="det"><p>Select</p></td>
+            <td>
+
+            <button onclick="sel(${info[i].idCliente})">Select</button>       
+            
+            </td>
             <td>
             <button onclick="del(${info[i].idCliente})">Borrar</button>       
  
@@ -31,4 +35,11 @@ const mostrarData = (info) => {
             `
     }
     document.getElementById('prev').innerHTML = body;
+}
+
+
+function sel(x) {
+    var nombreInput = document.getElementById("nombre");
+    nombreInput.value = x;
+
 }

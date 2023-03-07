@@ -16,42 +16,40 @@ include("conect.php");
 </head>
 
 <body>
-    <div class="flex" style="display: flex">
-    <div>
-        <form method="post" class="estilo" id="formularioregistro">
-            <p>Registro</p>
-            Nombre: <input type="text" name="nombre" require>
-            Apellido: <input type="text" name="apellido" require>
-            Rut: <input type="text" name="rut" require>
-            Tipo: <input type="text" name="tipo" require>
-            Tel: <input type="tel" name="telefono" require>
-            Activo: <input type="text" name="activo" require>
-            Mail: <input type="mail" name="email" require>
-            <button type="submit">Registro</button>
-        </form>
-        
+    <div class="flex" >
+        <div class="flexforms">
+            <div>
+                <form method="post" class="estilo" id="formularioregistro">
+                    <p>Registro</p>
+                    Nombre: <input type="text" id="nombre" name="nombre" require>
+                    Apellido: <input type="text" name="apellido" require>
+                    Rut: <input type="text" name="rut" require>
+                    Tipo: <input type="text" name="tipo" require>
+                    Tel: <input type="tel" name="telefono" require>
+                    Activo: <input type="text" name="activo" require>
+                    Mail: <input type="mail" name="email" require>
+                    <button type="submit">Registro</button>
+                </form>
+            </div>
+
+            <div>
+                <form method="post" class="estilo" id="formulariomod">
+                    <p>Modificar</p>
+                    Id: <input type="text" name="idCliente" require>
+                    Nombre: <input type="text" name="nombre" require>
+                    Apellido: <input type="text" name="apellido" require>
+                    Rut: <input type="text" name="rut" require>
+                    Tipo: <input type="text" name="tipo" require>
+                    Tel: <input type="tel" name="telefono" require>
+                    Activo: <input type="text" name="activo" require>
+                    Mail: <input type="mail" name="email" require>
+                    <button type="submit">Modificar</button>
+                </form>
+            </div>
     </div>
-
-    <div>
-        
-        <form method="post" class="estilo" id="formulariomod">
-            <p>Modificar</p>
-            Id: <input type="text" name="idCliente" require>
-            Nombre: <input type="text" name="nombre" require>
-            Apellido: <input type="text" name="apellido" require>
-            Rut: <input type="text" name="rut" require>
-            Tipo: <input type="text" name="tipo" require>
-            Tel: <input type="tel" name="telefono" require>
-            Activo: <input type="text" name="activo" require>
-            Mail: <input type="mail" name="email" require>
-            <button type="submit">Modificar</button>
-        </form>
-
-    </div>
-
     <div>
         <table>
-            <input type="button" value="Reload Page" onClick="document.location.reload(true)">
+            <input type="button" value="Reload lista" onClick="document.location.reload(true)">
             <thead>
                 <tr>
                     <th>id</th>

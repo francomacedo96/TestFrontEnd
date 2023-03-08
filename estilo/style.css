@@ -6,18 +6,21 @@
 .estilo {
     display: flex;
     flex-direction: column;
-    max-width: 10rem;
+    max-width: 15rem;
+    padding: 3rem;
+}
+
+.estiloform {
+    padding: 3rem;
 }
 
 .flex {
     display: flex;
-    flex-direction: column;
 }
 
 .flexforms {
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-evenly;
 }
 
 .table {

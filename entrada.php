@@ -11,6 +11,7 @@ $telefono = $_POST['telefono'];
 $activo = $_POST['activo'];
 $email = $_POST['email'];
 
+
 $consulta = "INSERT INTO perfil(nombre, apellido, rut, tipo, telefono, activo, email) VALUES ('$nombre','$apellido','$rut','$tipo','$telefono','$activo','$email')";
 $resultado = mysqli_query($conexion,$consulta); 
 /*

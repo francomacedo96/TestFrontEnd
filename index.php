@@ -22,23 +22,23 @@ include("conect.php");
                 <form method="post" class="estilo" id="formularioregistro">
                     <p>Registro</p>
                     Nombre: <input type="text" id="nombre" name="nombre" require>
-                    Apellido: <input type="text" name="apellido" require>
-                    Rut: <input type="text" name="rut" require>
+                    Apellido: <input type="text" id="apellido" name="apellido" require>
+                    Rut: <input type="text" id="rut" name="rut" require>
                     Tipo:       
-                    <select name="tipo" require>
+                    <select name="tipo" id="tipo" require>
                             <option value="empresa">empresa</option>
                             <option value="consumidorFinal">consumidor final</option>
                     </select>
 
                     
-                    Tel: <input type="tel" name="telefono" require>
+                    Tel: <input type="tel" id="telefono" name="telefono" require>
                     Activo: 
-                    <select name="activo" require>
+                    <select name="activo" id="activo" require>
                             <option value="si">si</option>
                             <option value="no">no</option>
                     </select>
                     
-                    Mail: <input type="mail" name="email" require>
+                    Mail: <input type="mail" id="email" name="email" require>
                     <button type="submit" type="button" class="btn btn-dark">Registro</button>
                 </form>
             </div>

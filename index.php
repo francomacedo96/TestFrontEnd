@@ -27,7 +27,7 @@ include("conect.php");
                     Tipo:       
                     <select name="tipo" require>
                             <option value="empresa">empresa</option>
-                            <option value="consumidorFinal">consumidorFinal</option>
+                            <option value="consumidorFinal">consumidor final</option>
                     </select>
 
                     
@@ -53,7 +53,7 @@ include("conect.php");
                     Tipo: 
                     <select name="tipo" require>
                             <option value="empresa">empresa</option>
-                            <option value="consumidorFinal">consumidorFinal</option>
+                            <option value="consumidorFinal">consumidor final</option>
                     </select>                    Tel: <input type="tel" name="telefono" require>
                     Activo: 
                     <select name="activo" require>
@@ -90,19 +90,18 @@ include("conect.php");
         </table>
     </div>
     </div>
-    <script src="script.js">
+    <script src="script/script.js">
     </script>
 
 
-    <script src="zmostrar.js">
+    <script src="script/zmostrar.js">
     </script>
 
-    <script src="modificar.js">
+    <script src="script/modificar.js">
     </script>
 
-
-        <script src="borrar.js">
-        </script>      <!--
+    <script src="script/borrar.js">
+    </script>      <!--
       -->
 
 </body>
